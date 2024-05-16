@@ -25,14 +25,14 @@ una oferta que describe el tipo de puesto que se está buscando, Ej: Cajero supe
 
 2. Output: Todo el Output debe ser en formato JSON con la siguiente información:
 
-   a. Valor numérico con la puntuación de 0 a 100 según la experiencia: Se debe
+a. Valor numérico con la puntuación de 0 a 100 según la experiencia: Se debe
 tener en cuenta sólo los puestos de trabajo relacionados con el del título
 aportado, por ejemplo no debe contar la experiencia como repartidor para un
 puesto de cajero.
 
-  b. Listado de la experiencia: Debe devolver un listado con las experiencias que son
+b. Listado de la experiencia: Debe devolver un listado con las experiencias que son
 relacionadas a la oferta propuesta, este listado debe contener la siguiente
 información de cada experiencia: Puesto, Empresa y duración.
 
-  c. Descripción de la experiencia: Debe devolver un texto explicativo sobre la
+c. Descripción de la experiencia: Debe devolver un texto explicativo sobre la
 experiencia del candidato y porque ha obtenido la puntuación dada.
