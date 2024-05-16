@@ -20,10 +20,11 @@ forma directa o usando la librería Langchain (como considere oportuno). El entr
 un proyecto instalable y 100% funcional.
 
 Requisitos
-1. Input: Adjuntamos al Prompt el CV de un candidato con todos sus datos y el título de
+
+1.Input: Adjuntamos al Prompt el CV de un candidato con todos sus datos y el título de
 una oferta que describe el tipo de puesto que se está buscando, Ej: Cajero supermercado Dia.
 
-2. Output: Todo el Output debe ser en formato JSON con la siguiente información:
+2.Output: Todo el Output debe ser en formato JSON con la siguiente información:
 
 a. Valor numérico con la puntuación de 0 a 100 según la experiencia: Se debe
 tener en cuenta sólo los puestos de trabajo relacionados con el del título
