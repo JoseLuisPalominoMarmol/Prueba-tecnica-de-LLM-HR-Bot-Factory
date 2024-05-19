@@ -55,3 +55,6 @@ Para evaluar un currículum con respecto a una oferta de trabajo, sigue estos pa
 python main.py
 
 El resultado será un JSON con la evaluación del currículum.
+
+### Puntuación
+Para evaluar candidatos de manera objetiva y sistemática, es esencial desarrollar una escala de puntuación que detalle claramente cada nivel según los requerimientos específicos del departamento. Sin embargo, en esta ocasión se ha decidido utilizar una clasificación más genérica para facilitar el proceso de evaluación.
