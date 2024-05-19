@@ -4,12 +4,12 @@ Prueba técnica para optar al puesto de Prompt Engineer / LLM Expert en HR Bot F
 hr bot factory
 Prueba técnica de LLM - IA Gen
 
-Descripción del proyecto
+## Descripción del proyecto
 La prueba consta de diseñar un sistema basado en LLM y los Prompts necesarios para lograr
 que una IA generativa (puede ser ChatGPT, Gemini, Claude, etc) te ayude a valorar la experiencia
 de un candidato de una oferta de trabajo.
 
-Especificaciones
+## Especificaciones
 Este sistema recibirá el nombre de una oferta de trabajo y un CV completo, ambos en formato
 texto como strings) y debe tener una salida muy específica en formato JSON (diccionario) que
 recogerá la puntuación obtenida, una lista de trabajos relacionados con el que queremos
@@ -19,7 +19,7 @@ El sistema debe implementarse usando Python, conectando al API del modelo LLM el
 forma directa o usando la librería Langchain (como considere oportuno). El entregable debe ser
 un proyecto instalable y 100% funcional.
 
-Requisitos
+## Requisitos
 
 1.Input: Adjuntamos al Prompt el CV de un candidato con todos sus datos y el título de
 una oferta que describe el tipo de puesto que se está buscando, Ej: Cajero supermercado Dia.
@@ -38,21 +38,16 @@ información de cada experiencia: Puesto, Empresa y duración.
 c. Descripción de la experiencia: Debe devolver un texto explicativo sobre la
 experiencia del candidato y porque ha obtenido la puntuación dada.
 
-Spacy: 
-pip install -U pip setuptools wheel
-pip install -U spacy
-python -m spacy download es_core_news_sm
-
 Version: Python 3.12.2
 
 ## Instalación
 Para instalar las dependencias necesarias, ejecuta el siguiente comando:
 pip install -r requirements.txt
 
-### Configuración de Variables de Entorno
+## Configuración de Variables de Entorno
 Configurar la API_KEY de OpenAI.
 
-#### Uso
+## Uso
 Para evaluar un currículum con respecto a una oferta de trabajo, sigue estos pasos:
 
 1. Modifica los datos de `job_offer` y `cv` en el script principal según tus necesidades.
