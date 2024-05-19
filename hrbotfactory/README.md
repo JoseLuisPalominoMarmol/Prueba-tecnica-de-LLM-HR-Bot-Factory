@@ -42,3 +42,21 @@ Spacy:
 pip install -U pip setuptools wheel
 pip install -U spacy
 python -m spacy download es_core_news_sm
+
+Version: Python 3.12.2
+
+## Instalación
+Para instalar las dependencias necesarias, ejecuta el siguiente comando:
+pip install -r requirements.txt
+
+### Configuración de Variables de Entorno
+Configurar la API_KEY de OpenAI.
+
+#### Uso
+Para evaluar un currículum con respecto a una oferta de trabajo, sigue estos pasos:
+
+1. Modifica los datos de `job_offer` y `cv` en el script principal según tus necesidades.
+2. Ejecuta el script utilizando el siguiente comando: 
+python main.py
+
+El resultado será un JSON con la evaluación del currículum.
